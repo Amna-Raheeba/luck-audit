@@ -1,0 +1,42 @@
+[
+  {
+    "lucky_rate_injected": 0.0,
+    "total_runs": 200,
+    "successful_runs": 175,
+    "lucky_runs": 0,
+    "luck_rate_measured": 0.0,
+    "auditor_accuracy": 1.0
+  },
+  {
+    "lucky_rate_injected": 0.2,
+    "total_runs": 200,
+    "successful_runs": 175,
+    "lucky_runs": 46,
+    "luck_rate_measured": 0.26285714285714284,
+    "auditor_accuracy": 1.0
+  },
+  {
+    "lucky_rate_injected": 0.4,
+    "total_runs": 200,
+    "successful_runs": 175,
+    "lucky_runs": 85,
+    "luck_rate_measured": 0.4857142857142857,
+    "auditor_accuracy": 1.0
+  },
+  {
+    "lucky_rate_injected": 0.6,
+    "total_runs": 200,
+    "successful_runs": 175,
+    "lucky_runs": 124,
+    "luck_rate_measured": 0.7085714285714285,
+    "auditor_accuracy": 1.0
+  },
+  {
+    "lucky_rate_injected": 0.8,
+    "total_runs": 200,
+    "successful_runs": 175,
+    "lucky_runs": 159,
+    "luck_rate_measured": 0.9085714285714286,
+    "auditor_accuracy": 1.0
+  }
+]
