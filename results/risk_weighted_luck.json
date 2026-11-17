@@ -1,0 +1,106 @@
+{
+  "per_mode": [
+    {
+      "mode": "competent",
+      "n": 200,
+      "successful_runs": 200,
+      "luck_rate": 0.0,
+      "mean_risk_score": 0.0,
+      "risk_weighted_luck_score": 0.0
+    },
+    {
+      "mode": "lucky_flight",
+      "n": 200,
+      "successful_runs": 200,
+      "luck_rate": 1.0,
+      "mean_risk_score": 0.75,
+      "risk_weighted_luck_score": 0.75
+    },
+    {
+      "mode": "lucky_seat",
+      "n": 200,
+      "successful_runs": 200,
+      "luck_rate": 1.0,
+      "mean_risk_score": 0.75,
+      "risk_weighted_luck_score": 0.75
+    },
+    {
+      "mode": "lucky_hotel",
+      "n": 200,
+      "successful_runs": 200,
+      "luck_rate": 1.0,
+      "mean_risk_score": 0.25,
+      "risk_weighted_luck_score": 0.25
+    },
+    {
+      "mode": "wrong_flight",
+      "n": 200,
+      "successful_runs": 0,
+      "luck_rate": null,
+      "mean_risk_score": 1.0,
+      "risk_weighted_luck_score": null
+    }
+  ],
+  "headline": {
+    "luck_rate": 0.4857142857142857,
+    "risk_weighted_luck_score": 0.2814285714285714,
+    "uninformed_rate_by_tier": {
+      "irreversible": 0.32,
+      "reversible": 0.1657142857142857
+    },
+    "risk_weight_by_tier": {
+      "irreversible": 0.75,
+      "reversible": 0.25
+    },
+    "lucky_weight": 197.0,
+    "total_weight": 700.0,
+    "per_run_pearson_lucky_vs_risk": 0.45642960233012136
+  },
+  "sweep": {
+    "luck_rates": [
+      0.0,
+      0.26285714285714284,
+      0.4857142857142857,
+      0.7085714285714285,
+      0.9085714285714286
+    ],
+    "risk_weighted_scores": [
+      0.0,
+      0.15142857142857144,
+      0.2814285714285714,
+      0.41714285714285715,
+      0.5357142857142857
+    ],
+    "pearson": 0.9999432590071825
+  },
+  "weight_sensitivity_demo_modes": {
+    "default 3/1/0.25": {
+      "competent": 0.0,
+      "lucky_flight": 0.75,
+      "lucky_seat": 0.75,
+      "lucky_hotel": 0.25,
+      "wrong_flight": 1.0
+    },
+    "mild 2/1/0.25": {
+      "competent": 0.0,
+      "lucky_flight": 0.6667,
+      "lucky_seat": 0.6667,
+      "lucky_hotel": 0.3333,
+      "wrong_flight": 1.0
+    },
+    "steep 5/1/0.5": {
+      "competent": 0.0,
+      "lucky_flight": 0.8333,
+      "lucky_seat": 0.8333,
+      "lucky_hotel": 0.1667,
+      "wrong_flight": 1.0
+    },
+    "flat 1/1/1": {
+      "competent": 0.0,
+      "lucky_flight": 0.5,
+      "lucky_seat": 0.5,
+      "lucky_hotel": 0.5,
+      "wrong_flight": 1.0
+    }
+  }
+}
