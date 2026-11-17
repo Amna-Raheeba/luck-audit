@@ -1,0 +1,3 @@
+variant,luck_rate,lucky_runs,auditor_accuracy
+strict (thoughts are not evidence),0.4857,85,1.0
+loose (thoughts count as evidence),0.0,0,0.8954
