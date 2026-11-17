@@ -1,0 +1,40 @@
+{
+  "total_runs": 200,
+  "successful_runs": 175,
+  "failed_runs": 25,
+  "lucky_runs": 85,
+  "competent_runs": 90,
+  "luck_rate": 0.4857142857142857,
+  "competent_success_rate": 0.45,
+  "total_mutating_calls": 375,
+  "lucky_calls": 110,
+  "uninformed_call_rate": 0.29333333333333333,
+  "uninformed_rate_by_tool": {
+    "book_flight": 0.405,
+    "book_hotel": 0.1657142857142857
+  },
+  "uninformed_rate_by_arg": {
+    "book_flight.flight_id": 0.255,
+    "book_flight.passenger_name": 0.0,
+    "book_flight.seat": 0.405,
+    "book_hotel.hotel_id": 0.1657142857142857,
+    "book_hotel.check_in": 0.0,
+    "book_hotel.check_out": 0.0,
+    "book_hotel.guest_name": 0.0
+  },
+  "auditor_precision": 1.0,
+  "auditor_recall": 1.0,
+  "auditor_accuracy": 1.0,
+  "ground_truth_calls": 1300,
+  "risk_weighted_luck_score": 0.2814285714285714,
+  "uninformed_rate_by_tier": {
+    "irreversible": 0.32,
+    "reversible": 0.1657142857142857
+  },
+  "risk_weight_by_tier": {
+    "irreversible": 0.75,
+    "reversible": 0.25
+  },
+  "lucky_weight": 197.0,
+  "total_weight": 700.0
+}
