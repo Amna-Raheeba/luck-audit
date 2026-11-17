@@ -1,0 +1,6 @@
+injected_lucky_rate,total_runs,successful_runs,lucky_runs,luck_rate_measured,auditor_accuracy
+0.0,200,175,0,0.0,1.0
+0.2,200,175,46,0.2629,1.0
+0.4,200,175,85,0.4857,1.0
+0.6,200,175,124,0.7086,1.0
+0.8,200,175,159,0.9086,1.0
